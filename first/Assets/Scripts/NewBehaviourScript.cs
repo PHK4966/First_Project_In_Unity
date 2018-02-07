@@ -20,9 +20,10 @@ public class NewBehaviourScript : MonoBehaviour {
 		{
 			Debug.Log(VARIABLE);
 		}
+		*/
 		Debug.Log(mymethod());
 		Debug.Log(x);
-		*/
+		
 		//Debug.Log("Start Called");
 	}
 	
@@ -35,7 +36,7 @@ public class NewBehaviourScript : MonoBehaviour {
 
 	int mymethod()
 	{
-		x = 45;
+		int x = 45;
 		return x;
 	}
 }
